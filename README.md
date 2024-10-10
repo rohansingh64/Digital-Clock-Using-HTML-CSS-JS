@@ -6,11 +6,19 @@ Digital Clock
 
 Features
 -Real-Time Updates: The clock updates every second to display the current time accurately.
+
+
 -Responsive Design: The clock is designed to be responsive, ensuring it looks great on both desktop and mobile devices.
+
+
 -Customizable Styles: Easily modify the CSS to change colors, fonts, and layouts to fit your personal style.
 
 
 Technologies Used
 -HTML: Structure of the clock.
+
+
 -CSS: Styling to enhance visual appeal.
+
+
 -JavaScript: Functionality to update the time dynamically.
