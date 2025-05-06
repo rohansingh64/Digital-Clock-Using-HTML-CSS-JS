@@ -4,12 +4,20 @@ const secondEl = document.getElementById("seconds");
 const ampmEl = document.getElementById("ampm");
 
 function updateClock() {
-  let h = new Date().getHours();
-  let m = new Date().getMinutes();
-  let s = new Date().getSeconds();
+
+  let now = new Date();
+  let h = now.getHours();
+  let m = now.getMinutes();
+  let s = now.getSeconds();
   let ampm = "AM";
 
-  if (h > 12) {
+  if (h == 12) {
+    ampm = "PM";
+  }
+  else if (h == 0) {
+    h = 12;
+  }
+  else if (h > 12) {
     h = h - 12;
     ampm = "PM";
   }
